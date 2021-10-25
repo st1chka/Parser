@@ -30,6 +30,7 @@ public class Main {
         cat1.habits();
 
         cat1.setSleep(true);
+        
 
         cat1.moveEat();
         cat1.moveVoes();
