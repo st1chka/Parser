@@ -1,41 +1,16 @@
 package Ylab.Lesson2;
 
-public class Animal {
+public abstract class Animal {
 
-    private final String name;
-    private Boolean sleep;
-    private String eat;
-    private String voes;
-
-    public void habits(){
-    }
+    private Boolean sleep = false;
 
 
-    protected void moveEat(){
-        if (!sleep){
-            System.out.println(getName() + getEat());
-        }else {
-            System.out.println(getName() + " не может есть, спит");
-        }
-    }
-    protected void moveVoes(){
-        if (!sleep){
-            System.out.println(getName() + getVoes());
-        }else {
-            System.out.println(getName() + " не подает голос, спит");
-        }
-    }
+    public abstract void habits();
 
-    public Animal(String name, Boolean sleep, String eat, String voes) {
-        this.name = name;
-        this.sleep = sleep;
-        this.eat = eat;
-        this.voes = voes;
-    }
+    protected abstract void moveEat();
 
-    public String getName() {
-        return name;
-    }
+    protected abstract void moveVoice();
+
 
 
     public Boolean getSleep() {
@@ -46,19 +21,4 @@ public class Animal {
         this.sleep = sleep;
     }
 
-    public String getEat() {
-        return eat;
-    }
-
-    public void setEat(String eat) {
-        this.eat = eat;
-    }
-
-    public String getVoes() {
-        return voes;
-    }
-
-    public void setVoes(String voes) {
-        this.voes = voes;
-    }
 }
