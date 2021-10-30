@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ylab:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ylab_jar</output-path>
+    <root id="archive" name="Ylab.jar">
+      <element id="module-output" name="Ylab" />
+    </root>
+  </artifact>
+</component>
