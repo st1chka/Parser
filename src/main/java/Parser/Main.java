@@ -1,18 +1,22 @@
 package Parser;
 
+import Parser.SAX.Root;
 import Parser.SAX.SaxMyParser;
+import Parser.SAX.SaxParserHandler;
+
+import javax.naming.directory.SearchControls;
+import javax.naming.directory.SearchResult;
 
 
 public class Main {
     public static void main(String[] args) {
-//        String filePath = args[0];
-        String filePath = "C:\\Users\\st1ch\\Desktop\\Ylab\\out\\artifacts\\Ylab_jar\\test.xml";
-        SaxMyParser parser = new SaxMyParser();
-        Rot rot = parser.parse(filePath);
+        SaxParserHandler saxParserHandler = null;
+        String filePath = args[0];
+        
+        String[] csArr = filePath.split("\\s");
 
+        SaxMyParser parser = new SaxMyParser();
+        Root root = parser.parse(filePath);
 
     }
 }
-//C:\Users\st1ch\.jdks\corretto-11.0.10\bin\java
-
-//        "C:\Users\st1ch\.jdks\corretto-11.0.10\bin\java.exe" -jar Ylab.jar -f test.xml -s file-1498940214.xhtml

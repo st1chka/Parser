@@ -1,22 +1,33 @@
 package Parser.SAX;
 
-import Parser.Rot;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import java.io.File;
-
-import static Parser.Tags.Tag.TAG_NAME;
-
 
 public class SaxParserHandler extends DefaultHandler {
+    private static boolean isFound;
     private String currentTagName;
+    private String element;
 
-    Rot rot = new Rot();
+    private boolean isChild = false;
+    private boolean isChildren = false;
+    private boolean isName = false;
 
-    public Rot getRot() {
-        return rot;
+    Root root = new Root();
+    Root search = new Root();
+
+    public Root getRoot() {
+        return root;
+    }
+
+
+
+
+    @Override
+    public void endDocument() throws SAXException {
+
     }
 
     @Override
@@ -26,22 +37,23 @@ public class SaxParserHandler extends DefaultHandler {
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
-        currentTagName = qName;
+        currentTagName = null;
     }
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
 
-        if (currentTagName == null) {
-            return;
-        }
 
         if (!new String(ch, start, length).isBlank()) {
-            System.out.println(new String(ch, start, length));
-        }
-//        if(new String(ch, start, length).equals(TAG_NAME)){
-//            System.out.println(new String(ch, start, length));
-//        }
+            String cs = new String(ch, start, length).trim();
+            System.out.println(cs);
 
+        }
     }
 }
+
+
+
+
+
+

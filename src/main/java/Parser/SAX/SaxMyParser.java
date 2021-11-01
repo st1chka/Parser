@@ -1,7 +1,6 @@
 package Parser.SAX;
 
 
-import Parser.Rot;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -13,7 +12,25 @@ import java.io.IOException;
 
 
 public class SaxMyParser extends DefaultHandler {
-    public Rot parse(String filePath) {
+//    public Root parse(String filePath) {
+//
+//
+//        SAXParserFactory factory = SAXParserFactory.newInstance();
+//        SaxParserHandler handler = new SaxParserHandler();
+//
+//
+//        try {
+//            SAXParser parser = factory.newSAXParser();
+//            File file = new File(filePath);
+//            parser.parse(file,handler);
+//        } catch (ParserConfigurationException | SAXException | IOException e) {
+//            e.printStackTrace();
+//        }
+//        return handler.getRoot();
+//    }
+
+    public Root parse(String filePath) {
+
 
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SaxParserHandler handler = new SaxParserHandler();
@@ -22,11 +39,15 @@ public class SaxMyParser extends DefaultHandler {
         try {
             SAXParser parser = factory.newSAXParser();
             File file = new File(filePath);
-            parser.parse(file,handler);
+            System.out.println(parser.getSchema());
+            parser.parse(file, handler);
+//            parser.parse(searchString, handler);
+
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
-        return handler.getRot();
+        return handler.getRoot();
     }
+
 
 }
