@@ -1,33 +1,19 @@
 package Parser.SAX;
 
 
+import Parser.Main;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 
 public class SaxParserHandler extends DefaultHandler {
-    private static boolean isFound;
     private String currentTagName;
-    private String element;
-
-    private boolean isChild = false;
-    private boolean isChildren = false;
-    private boolean isName = false;
 
     Root root = new Root();
-    Root search = new Root();
 
     public Root getRoot() {
         return root;
-    }
-
-
-
-
-    @Override
-    public void endDocument() throws SAXException {
-
     }
 
     @Override
@@ -36,20 +22,28 @@ public class SaxParserHandler extends DefaultHandler {
     }
 
     @Override
+    public void characters(char[] ch, int start, int length) throws SAXException {
+        String alpha = new String(ch, start, length);
+        if (!alpha.isBlank()) {
+
+            if (alpha.startsWith("dir")) {
+                SaxMyParser.builder.append(alpha).append("/");
+            }
+            if (alpha.startsWith("file")) {
+                SaxMyParser.list.add(SaxMyParser.builder.toString() + alpha);
+            }
+        }
+
+
+    }
+
+
+    @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         currentTagName = null;
     }
 
-    @Override
-    public void characters(char[] ch, int start, int length) throws SAXException {
 
-
-        if (!new String(ch, start, length).isBlank()) {
-            String cs = new String(ch, start, length).trim();
-            System.out.println(cs);
-
-        }
-    }
 }
 
 
