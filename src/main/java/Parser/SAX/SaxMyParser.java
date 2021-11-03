@@ -12,11 +12,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static Parser.SAX.Format.FOR_MAT;
 
 public class SaxMyParser extends DefaultHandler {
     public static List<String> list = new ArrayList<>();
     public static StringBuilder builder = new StringBuilder();
-
+    public static String FORM;
 
     public Root parse(String filePath) {
 
@@ -41,11 +42,19 @@ public class SaxMyParser extends DefaultHandler {
         }
 
         for (int i = 0; i < args.length ; i++) {
-            if (args[i].equals("-s")){
+
+            if (args[i].equals("-s") && args[i+1].startsWith("file")){
                 int constant = i+1;
                 list.stream()
                         .filter(s -> s.endsWith(args[constant]))
                         .forEach(System.out::println);
+            }else if (args[i].equals("-s") && args[i+1].endsWith(".java")){
+                list.stream().filter(s->s.endsWith("java")).forEach(System.out::println);
+            }
+            else if (args[i].equals("-s") && args[i+1].endsWith(".xhtml")){
+                list.stream().filter(s->s.endsWith("xhtml")).forEach(System.out::println);
+            }else if (args[i].equals("-s") && args[i+1].endsWith(".xml")){
+                list.stream().filter(s->s.endsWith("xml")).forEach(System.out::println);
             }
 
         }

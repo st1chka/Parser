@@ -1,11 +1,8 @@
 package Parser.SAX;
 
-
-import Parser.Main;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
 
 public class SaxParserHandler extends DefaultHandler {
     private String currentTagName;
@@ -33,8 +30,6 @@ public class SaxParserHandler extends DefaultHandler {
                 SaxMyParser.list.add(SaxMyParser.builder.toString() + alpha);
             }
         }
-
-
     }
 
 
@@ -42,12 +37,4 @@ public class SaxParserHandler extends DefaultHandler {
     public void endElement(String uri, String localName, String qName) throws SAXException {
         currentTagName = null;
     }
-
-
 }
-
-
-
-
-
-
