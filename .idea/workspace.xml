@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Ylab:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef6e2ca1-edac-44b1-8424-5b784bf9514c" name="Changes" comment="lesson 3 regexp (3 тест), хочу оптимизировть перечесление и сократить код">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Ylab_jar/Ylab.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Ylab_jar/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Children.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/Format.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/SAX/Root.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxMyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxMyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxParserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxParserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Tags/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Ylab-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/Children.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/Format.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/Root.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/SaxMyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/SaxParserHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/Tags/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="corretto-11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20B5dcGAOFj21kFQawCIaej0Rrr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../repetitionOfTheBasics" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.13908207" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Parser.SAX" />
+      <recent name="Parser" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\st1ch\Documents\GitHub\JavaRush.Ylab\src\main\java\Parser2\0" />
+      <recent name="C:\Users\st1ch\Documents\GitHub\JavaRush.Ylab\src\main\java" />
+      <recent name="C:\Users\st1ch\Desktop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\st1ch\Documents\GitHub\JavaRush.Ylab\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Parser" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parser.Main" />
+      <module name="Ylab" />
+      <option name="PROGRAM_PARAMETERS" value="-f C:\Users\st1ch\Documents\GitHub\JavaRush.Ylab\src\main\resources\test.xml -s *.xhtml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Parser.SAX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaxMyParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parser.SAX.SaxMyParser" />
+      <module name="Ylab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SaxMyParser" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SaxMyParser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef6e2ca1-edac-44b1-8424-5b784bf9514c" name="Changes" comment="" />
+      <created>1635505233560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635505233560</updated>
+      <workItem from="1635505235579" duration="6865000" />
+      <workItem from="1635581140504" duration="6761000" />
+      <workItem from="1635588568835" duration="10364000" />
+      <workItem from="1635600534074" duration="12165000" />
+      <workItem from="1635683004357" duration="13326000" />
+      <workItem from="1635758331335" duration="29600000" />
+      <workItem from="1635846024574" duration="7340000" />
+      <workItem from="1635881156726" duration="12322000" />
+      <workItem from="1636020823066" duration="10002000" />
+    </task>
+    <task id="LOCAL-00001" summary="lesson 3&#10;chek point">
+      <created>1635758405698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635758405699</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 3 finish">
+      <created>1635854189565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635854189565</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 3 regexp (3 тест), хочу оптимизировть перечесление и сократить код">
+      <created>1635942704761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635942704761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 3&#10;chek point" />
+    <MESSAGE value="lesson 3 finish" />
+    <MESSAGE value="lesson 3 regexp (3 тест), хочу оптимизировть перечесление и сократить код" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 regexp (3 тест), хочу оптимизировть перечесление и сократить код" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
