@@ -1,6 +1,0 @@
-Parser\Main.class
-Parser\Tags\Tag.class
-Parser\SAX\SaxMyParser.class
-Parser\SAX\SaxParserHandler.class
-Parser\Children.class
-Parser\SAX\Root.class

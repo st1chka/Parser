@@ -1,5 +1,5 @@
 package Parser.SAX;
 
-public class Root {
+public abstract class Root {
 
 }
