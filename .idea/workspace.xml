@@ -10,30 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef6e2ca1-edac-44b1-8424-5b784bf9514c" name="Changes" comment="lesson 3 regexp (3 тест), хочу оптимизировть перечесление и сократить код">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Ylab_jar/Ylab.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Ylab_jar/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Children.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/Format.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/SAX/Root.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxMyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxMyParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxParserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/SAX/SaxParserHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Tags/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/Constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Ylab-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Parser/Children.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRush/Lesson_2/Function/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRush/Lesson_2/Objects/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRush/Lesson_2/Objects/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRush/Lesson_2/Objects/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRush/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ylab/Lesson2/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ylab/Lesson2/Animals/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ylab/Lesson2/Animals/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ylab/Lesson2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ylab/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser/Constants/Constants.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Parser/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/Format.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/Root.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/SaxMyParser.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Parser/SAX/SaxParserHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Parser/Tags/Tag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +159,7 @@
       <workItem from="1635758331335" duration="29600000" />
       <workItem from="1635846024574" duration="7340000" />
       <workItem from="1635881156726" duration="12322000" />
-      <workItem from="1636020823066" duration="10002000" />
+      <workItem from="1636020823066" duration="10597000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 3&#10;chek point">
       <created>1635758405698</created>

@@ -1,2 +1,0 @@
-# JavaRush.Ylab
-# JavaRush.Ylab
