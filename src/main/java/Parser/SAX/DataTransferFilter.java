@@ -7,7 +7,7 @@ import java.util.List;
 
 import static Parser.Constants.Constants.*;
 public class DataTransferFilter {
-    public static List<String> list = new ArrayList<>();
+    public static ArrayList<String> list = new ArrayList<>();
     public static StringBuilder builder = new StringBuilder();
 
     public static void dataTransferFilter(String[] args) {
