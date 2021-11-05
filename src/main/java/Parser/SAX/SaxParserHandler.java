@@ -3,6 +3,8 @@ package Parser.SAX;
 import org.xml.sax.helpers.DefaultHandler;
 
 import static Parser.Constants.Constants.*;
+import static Parser.SAX.DataTransferFilter.builder;
+import static Parser.SAX.DataTransferFilter.list;
 
 public class SaxParserHandler extends DefaultHandler {
     Root root;
@@ -17,10 +19,10 @@ public class SaxParserHandler extends DefaultHandler {
         if (!alpha.isBlank()) {
 
             if (alpha.startsWith(DIR)) {
-                SaxMyParser.builder.append(alpha).append(SPLIT);
+                builder.append(alpha).append(SPLIT);
             }
             if (alpha.startsWith(FILE)) {
-                SaxMyParser.list.add(SaxMyParser.builder.toString() + alpha);
+                list.add(builder.toString() + alpha);
             }
         }
     }
