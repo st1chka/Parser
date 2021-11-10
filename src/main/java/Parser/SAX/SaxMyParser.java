@@ -19,6 +19,8 @@ public class SaxMyParser extends DefaultHandler {
         SaxParserHandler handler = new SaxParserHandler();
 
         try {
+            factory.setValidating(true);
+            factory.setNamespaceAware(false);
             SAXParser parser = factory.newSAXParser();
             File file = new File(filePath);
             parser.parse(file, handler);
